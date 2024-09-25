@@ -1,0 +1,28 @@
+
+ # Copyright (C) 2024 samac199999
+ # All rights reserved.
+ #
+ # Contact: samac199999@gmail.com
+ #
+ # This code is licensed under the MIT License.
+ # See the LICENSE file in the project root for more information.
+
+#spring:
+#  main:
+#    web-application-type: none
+
+server:
+  port: 8081
+
+config:
+  host: 127.0.0.1
+  port: 53215
+  token: test56165116565
+  use-udt: false
+  password: a123456
+  write-limit: 0
+  read-limit: 0
+  mappings:
+    - 5255;127.0.0.1:5244;false
+  udp-mappings:
+    - 5255;127.0.0.1:5244;false
